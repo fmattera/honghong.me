@@ -7,6 +7,8 @@ import GetInTouch from '@/components/home/get-in-touch'
 import Hero from '@/components/home/hero'
 import LatestArticles from '@/components/home/latest-articles'
 import SelectedProjects from '@/components/home/selected-projects'
+import ExperienceSection from '@/components/home/experience'
+
 import {
   SITE_DESCRIPTION,
   SITE_FACEBOOK_URL,
@@ -67,8 +69,9 @@ const Page = () => {
       />
       <Hero />
       <AboutMe />
+      <ExperienceSection />
       <SelectedProjects projects={projects} />
-      <LatestArticles posts={latestPosts} />
+      {/* <LatestArticles posts={latestPosts} /> */}
       <GetInTouch />
     </>
   )
