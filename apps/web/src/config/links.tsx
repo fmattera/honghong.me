@@ -45,34 +45,24 @@ type SocialLinks = Array<{
 
 export const HEADER_LINKS: HeaderLinks = [
   {
-    icon: <PencilIcon className='size-3.5' />,
-    href: '/blog',
-    text: 'Blog'
-  },
-  {
-    icon: <MessageCircleIcon className='size-3.5' />,
-    href: '/guestbook',
-    text: 'Guestbook'
-  },
-  {
-    icon: <BarChartIcon className='size-3.5' />,
-    href: '/dashboard',
-    text: 'Dashboard'
-  },
-  {
     icon: <FlameIcon className='size-3.5' />,
     href: '/projects',
     text: 'Projects'
   },
   {
-    icon: <UserCircleIcon className='size-3.5' />,
-    href: '/about',
-    text: 'About'
+    icon: <MonitorIcon className='size-3.5' />,
+    href: '/skills',
+    text: 'Skills'
   },
   {
-    icon: <MonitorIcon className='size-3.5' />,
-    href: '/uses',
-    text: 'Uses'
+    icon: <PencilIcon className='size-3.5' />,
+    href: '/blog',
+    text: 'Blog'
+  },
+  {
+    icon: <UserCircleIcon className='size-3.5' />,
+    href: '/about',
+    text: 'Contact'
   }
 ]
 

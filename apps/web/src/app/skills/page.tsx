@@ -7,7 +7,7 @@ import Mdx from '@/components/mdx'
 import PageTitle from '@/components/page-title'
 import { SITE_TITLE, SITE_URL } from '@/lib/constants'
 
-const title = 'Uses'
+const title = 'Skills'
 const description =
   'This is the equipment I currently use for gaming, programming, making videos, and every day.'
 
