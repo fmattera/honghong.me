@@ -67,6 +67,7 @@ const AboutMe = () => {
           duration: 0.3
         }}
       >
+
         <div className='grid gap-4'>
           <LocationCard />
           <StacksCard />
