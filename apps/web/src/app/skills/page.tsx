@@ -9,7 +9,7 @@ import { SITE_TITLE, SITE_URL } from '@/lib/constants'
 
 const title = 'Skills'
 const description =
-  'This is the equipment I currently use for gaming, programming, making videos, and every day.'
+  'These are some of the product and technical skills that I have, have a look!'
 
 type PageProps = {
   params: Record<string, never>

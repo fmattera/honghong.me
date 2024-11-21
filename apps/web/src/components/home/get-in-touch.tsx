@@ -1,8 +1,9 @@
 'use client'
 
-import { BlurImage } from '@tszhong0411/ui'
 import { motion, useAnimate, useInView } from 'framer-motion'
 import { useEffect, useRef } from 'react'
+import { BlurImage, buttonVariants, Link } from '@tszhong0411/ui'
+import { cn } from '@tszhong0411/utils'
 
 import me from '~/images/francesco.jpeg'
 
@@ -118,13 +119,27 @@ const GetInTouch = () => {
               Do you have any opportunities?
             </p>
             <p className='text-zinc-800 dark:text-zinc-300'>Let's talk!</p>
-            <div className='my-8'>
+            <div className='my-6'>
               <a
                 href='mailto:f.mattera.it@gmail.com'
                 className='bg-email-button rounded-full px-4 py-2 text-sm text-white'
               >
                 f.mattera.it@gmail.com
               </a>
+            </div>
+            <div className='flex items-center'>
+              <Link
+                href='/projects'
+                className={cn(
+                  buttonVariants({
+                    variant: 'default'
+                  }),
+                  'rounded-xl'
+                )}
+              >
+                <span>View Resume</span>
+                <span className="text-lg ml-2 mt-1">↗</span>
+              </Link>
             </div>
           </div>
         </div>
