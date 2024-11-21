@@ -28,6 +28,7 @@ const LocationCard = () => {
       if (canvasRef.current && (width = canvasRef.current.offsetWidth)) {
         window.addEventListener('resize', onResize)
       }
+
     }
     onResize()
 
