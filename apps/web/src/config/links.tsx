@@ -71,46 +71,62 @@ export const FOOTER_LINKS: FooterLinks = [
         text: 'Home'
       },
       {
-        href: '/blog',
-        text: 'Blog'
+        href: '/projects',
+        text: 'Projects'
       },
       {
-        href: '/about',
-        text: 'About'
+        href: '/skills',
+        text: 'Skills'
       },
-      {
-        href: '/dashboard',
-        text: 'Dashboard'
-      }
+      // {
+      //   href: '/blog',
+      //   text: 'Blog'
+      // },
+      // {
+      //   href: '/about',
+      //   text: 'About'
+      // },
+      // {
+      //   href: '/dashboard',
+      //   text: 'Dashboard'
+      // }
     ]
   },
   {
     id: 2,
     links: [
-      {
-        href: '/guestbook',
-        text: 'Guestbook'
-      },
-      {
-        href: '/uses',
-        text: 'Uses'
-      },
-      {
-        href: '/projects',
-        text: 'Projects'
-      },
-      {
-        href: 'https://links.honghong.me',
-        text: 'Links'
-      }
+      // {
+      //   href: '/guestbook',
+      //   text: 'Guestbook'
+      // },
+      // {
+      //   href: '/uses',
+      //   text: 'Uses'
+      // },
+      // {
+      //   href: '/projects',
+      //   text: 'Projects'
+      // },
+      // {
+      //   href: 'https://links.honghong.me',
+      //   text: 'Links'
+      // }
     ]
   },
   {
     id: 3,
     links: [
       {
+        href: SITE_LINKEDIN_URL,
+        text: 'LinkedIn'
+      },
+      {
         href: SITE_GITHUB_URL,
         text: 'GitHub'
+      },
+      {
+        href: SITE_CALENDLY_URL,
+        text: 'Calendly'
       },
     ]
   }

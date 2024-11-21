@@ -33,27 +33,7 @@ const Footer = () => {
         ))}
       </div>
       <div className='mt-20 flex items-center justify-between text-sm'>
-        <div>&copy; {new Date().getFullYear()} Hong</div>
-        <Link
-          href='https://git.new/honghong-me'
-          className='flex items-center justify-center overflow-hidden rounded-md border'
-        >
-          <div className='bg-muted flex h-8 items-center gap-2 border-r px-2'>
-            <StarIcon className='size-4' />
-            <span className='font-medium'>Star</span>
-          </div>
-          <div className='bg-background flex h-8 items-center px-3'>
-            {status === 'pending' ? '--' : null}
-            {status === 'error' ? 'Error' : null}
-            {status === 'success'
-              ? Intl.NumberFormat('en', {
-                  notation: 'compact',
-                  minimumFractionDigits: 0,
-                  maximumFractionDigits: 1
-                }).format(data)
-              : null}
-          </div>
-        </Link>
+        <div>&copy; {new Date().getFullYear()} Francesco</div>
       </div>
     </footer>
   )
