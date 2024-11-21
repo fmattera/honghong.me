@@ -50,16 +50,16 @@ export const HEADER_LINKS: HeaderLinks = [
     href: '/skills',
     text: 'Skills'
   },
-  {
-    icon: <PencilIcon className='size-3.5' />,
-    href: '/blog',
-    text: 'Blog'
-  },
-  {
-    icon: <UserCircleIcon className='size-3.5' />,
-    href: '/about',
-    text: 'Contact'
-  }
+  // {
+  //   icon: <PencilIcon className='size-3.5' />,
+  //   href: '/blog',
+  //   text: 'Blog'
+  // },
+  // {
+  //   icon: <UserCircleIcon className='size-3.5' />,
+  //   href: '/about',
+  //   text: 'Contact'
+  // }
 ]
 
 export const FOOTER_LINKS: FooterLinks = [

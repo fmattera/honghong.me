@@ -59,8 +59,8 @@ const Header = () => {
       <div className='flex items-center gap-2'>
         <Navbar />
         <Separator orientation='vertical' className='h-6' />
-        <ThemeToggle />
-        <CommandMenu />
+        {/* <ThemeToggle />
+        <CommandMenu /> */}
         <MobileNav />
       </div>
     </motion.header>
