@@ -29,6 +29,7 @@ const LocationCard = () => {
         window.addEventListener('resize', onResize)
       }
 
+
     }
     onResize()
 
