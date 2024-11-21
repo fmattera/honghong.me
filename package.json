@@ -72,15 +72,15 @@
     "jsdom": "^24.1.0",
     "knip": "^5.18.2",
     "lint-staged": "^15.2.6",
+    "next": "^13.0.0",
     "prettier": "^3.3.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "tsup": "^8.1.0",
     "tsx": "^4.15.2",
     "turbo": "^2.1.1",
     "typescript": "5.5.1-rc",
-    "vitest": "^1.6.0",
-    "next": "^13.0.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "vitest": "^1.6.0"
   },
   "engines": {
     "node": ">=20.11.0",
@@ -96,5 +96,8 @@
       "@types/react": "npm:types-react@rc",
       "@types/react-dom": "npm:types-react-dom@rc"
     }
+  },
+  "dependencies": {
+    "react-icons": "^5.3.0"
   }
 }

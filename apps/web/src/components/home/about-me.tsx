@@ -10,6 +10,8 @@ import Connect from './connect'
 import FavoriteFramework from './favorite-framework'
 import LocationCard from './location-card'
 import StacksCard from './stacks-card'
+import StackCardProduct from './stacks-card-product'
+import StacksCardProduct from './stacks-card-product'
 
 const variants = {
   initial: {
@@ -73,16 +75,13 @@ const AboutMe = () => {
           <StacksCard />
         </div>
         <div className='grid gap-4'>
+          <StacksCardProduct />
           <Connect />
-          <div className='grid gap-4 [@media(min-width:450px)]:grid-cols-2'>
-            <CodingHours />
-            <FavoriteFramework />
-          </div>
         </div>
       </motion.div>
       <div className='my-8 flex items-center justify-center'>
-        <Link href='/about' className={cn(buttonVariants({ variant: 'outline' }), 'rounded-xl')}>
-          Know more about me
+        <Link href='/skills' className={cn(buttonVariants({ variant: 'default' }), 'rounded-xl')}>
+          Explore all my skills
         </Link>
       </div>
     </motion.div>

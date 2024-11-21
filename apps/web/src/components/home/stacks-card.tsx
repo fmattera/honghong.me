@@ -8,19 +8,22 @@ import {
   SiGit,
   SiHtml5,
   SiJavascript,
-  SiJest,
   SiMarkdown,
   SiMysql,
   SiNextdotjs,
   SiNodedotjs,
-  SiPostgresql,
-  SiPrisma,
   SiPython,
   SiReact,
   SiTailwindcss,
   SiTypescript,
   SiVisualstudiocode,
-  SiVite
+  SiAmazonaws,
+  SiGooglecloud,
+  SiDocker,
+  SiVite,
+  SiStripe,
+  SiOpenai,
+  SiPandas,
 } from '@icons-pack/react-simple-icons'
 import { Marquee } from '@tszhong0411/ui'
 import { ZapIcon } from 'lucide-react'
@@ -30,7 +33,7 @@ const StacksCard = () => {
     <div className='shadow-feature-card dark:shadow-feature-card-dark flex h-60 flex-col gap-2 overflow-hidden rounded-xl p-4 lg:p-6'>
       <div className='flex items-center gap-2'>
         <ZapIcon className='size-[18px]' />
-        <h2 className='text-sm font-light'>Stacks</h2>
+        <h2 className='text-sm font-light'>Tech Stacks</h2>
       </div>
       <Marquee gap='20px' className='py-4' fade pauseOnHover>
         <SiHtml5 className='size-10' />
@@ -42,10 +45,11 @@ const StacksCard = () => {
         <SiNextdotjs className='size-10' />
         <SiReact className='size-10' />
         <SiPython className='size-10' />
-        <SiPostgresql className='size-10' />
+        <SiPandas className='size-10' />
+        <SiOpenai className='size-10' />
       </Marquee>
       <Marquee gap='20px' className='py-4' reverse fade pauseOnHover>
-        <SiPrisma className='size-10' />
+        <SiAmazonaws className='size-10' />
         <SiMysql className='size-10' />
         <SiFirebase className='size-10' />
         <SiGit className='size-10' />
@@ -53,8 +57,10 @@ const StacksCard = () => {
         <SiVisualstudiocode className='size-10' />
         <SiCloudflare className='size-10' />
         <SiMarkdown className='size-10' />
-        <SiJest className='size-10' />
+        <SiGooglecloud className='size-10' />
         <SiNodedotjs className='size-10' />
+        <SiDocker className='size-10' />
+        <SiStripe className='size-10' />
       </Marquee>
     </div>
   )

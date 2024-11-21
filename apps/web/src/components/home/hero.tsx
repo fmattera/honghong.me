@@ -74,7 +74,7 @@ const Hero = () => {
                 ))}
               </div>
             </div>{' '}
-            for coding.
+            for full stack coding.
           </h1>
           <div className='text-muted-foreground text-sm'>Amsterdam • UTC/GMT +1</div>
           <div className='my-6 flex items-left'>

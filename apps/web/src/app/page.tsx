@@ -66,8 +66,8 @@ const Page = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <Hero />
-      <SelectedProjects projects={projects} />
       <AboutMe />
+      <SelectedProjects projects={projects} />
       <LatestArticles posts={latestPosts} />
       <GetInTouch />
     </>

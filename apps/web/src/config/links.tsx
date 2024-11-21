@@ -1,10 +1,8 @@
 import {
   type IconType,
-  SiFacebook,
   SiGithub,
-  SiInstagram,
-  SiX,
-  SiYoutube
+  SiLinkedin,
+  SiCalendly,
 } from '@icons-pack/react-simple-icons'
 import {
   BarChartIcon,
@@ -16,11 +14,9 @@ import {
 } from 'lucide-react'
 
 import {
-  SITE_FACEBOOK_URL,
   SITE_GITHUB_URL,
-  SITE_INSTAGRAM_URL,
-  SITE_X_URL,
-  SITE_YOUTUBE_URL
+  SITE_CALENDLY_URL,
+  SITE_LINKEDIN_URL
 } from '@/lib/constants'
 
 type HeaderLinks = Array<{
@@ -113,49 +109,28 @@ export const FOOTER_LINKS: FooterLinks = [
     id: 3,
     links: [
       {
-        href: SITE_FACEBOOK_URL,
-        text: 'Facebook'
-      },
-      {
-        href: SITE_INSTAGRAM_URL,
-        text: 'Instagram'
-      },
-      {
         href: SITE_GITHUB_URL,
         text: 'GitHub'
       },
-      {
-        href: SITE_YOUTUBE_URL,
-        text: 'YouTube'
-      }
     ]
   }
 ]
 
 export const SOCIAL_LINKS: SocialLinks = [
   {
+    href: SITE_LINKEDIN_URL, // Add your LinkedIn URL here
+    title: 'LinkedIn',       // Title for LinkedIn
+    icon: SiLinkedin,        // LinkedIn icon
+  },
+  {
     href: SITE_GITHUB_URL,
     title: 'GitHub',
     icon: SiGithub
   },
   {
-    href: SITE_FACEBOOK_URL,
-    title: 'Facebook',
-    icon: SiFacebook
+    href: SITE_CALENDLY_URL,
+    title: 'Calendly',
+    icon: SiCalendly
   },
-  {
-    href: SITE_INSTAGRAM_URL,
-    title: 'Instagram',
-    icon: SiInstagram
-  },
-  {
-    href: SITE_X_URL,
-    title: 'X',
-    icon: SiX
-  },
-  {
-    href: SITE_YOUTUBE_URL,
-    title: 'YouTube',
-    icon: SiYoutube
-  }
+
 ]
