@@ -44,6 +44,9 @@
       "path": "./node_modules/cz-git"
     }
   },
+  "dependencies": {
+    "react-icons": "^5.3.0"
+  },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.0",
     "@changesets/cli": "^2.27.5",
@@ -72,7 +75,7 @@
     "jsdom": "^24.1.0",
     "knip": "^5.18.2",
     "lint-staged": "^15.2.6",
-    "next": "^13.0.0",
+    "next": "^15.0.0",
     "prettier": "^3.3.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -96,8 +99,5 @@
       "@types/react": "npm:types-react@rc",
       "@types/react-dom": "npm:types-react-dom@rc"
     }
-  },
-  "dependencies": {
-    "react-icons": "^5.3.0"
   }
 }
