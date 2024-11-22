@@ -6,7 +6,7 @@
   "license": "GPL-3.0",
   "type": "module",
   "scripts": {
-    "build": "mdx build && dotenv -e ../../.env.local -- next build",
+    "build": "next build",
     "bundle-analyzer": "cross-env ANALYZE=true pnpm run build",
     "clean": "rm -rf .next .turbo .mdx test-results playwright-report",
     "dev": "concurrently \"mdx dev\" \"dotenv -e ../../.env.local -- next dev -p 3000\"",
