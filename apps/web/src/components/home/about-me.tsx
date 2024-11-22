@@ -5,12 +5,12 @@ import { cn } from '@tszhong0411/utils'
 import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
 
-import CodingHours from './coding-hours'
+// import CodingHours from './coding-hours'
 import Connect from './connect'
-import FavoriteFramework from './favorite-framework'
+// import FavoriteFramework from './favorite-framework'
 import LocationCard from './location-card'
 import StacksCard from './stacks-card'
-import StackCardProduct from './stacks-card-product'
+// import StackCardProduct from './stacks-card-product'
 import StacksCardProduct from './stacks-card-product'
 
 const variants = {
@@ -69,7 +69,6 @@ const AboutMe = () => {
           duration: 0.3
         }}
       >
-
         <div className='grid gap-4'>
           <LocationCard />
           <StacksCard />

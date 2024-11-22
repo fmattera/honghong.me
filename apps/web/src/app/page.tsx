@@ -1,14 +1,13 @@
-import { allBlogPosts, allProjects } from 'mdx/generated'
+import { allProjects } from 'mdx/generated'
 import type { Metadata } from 'next'
 import type { WebSite, WithContext } from 'schema-dts'
 
 import AboutMe from '@/components/home/about-me'
+import ExperienceSection from '@/components/home/experience'
 import GetInTouch from '@/components/home/get-in-touch'
 import Hero from '@/components/home/hero'
-import LatestArticles from '@/components/home/latest-articles'
+// import LatestArticles from '@/components/home/latest-articles'
 import SelectedProjects from '@/components/home/selected-projects'
-import ExperienceSection from '@/components/home/experience'
-
 import {
   SITE_DESCRIPTION,
   SITE_FACEBOOK_URL,
@@ -52,12 +51,12 @@ const jsonLd: WithContext<WebSite> = {
 }
 
 const Page = () => {
-  const posts = allBlogPosts
-  const latestPosts = posts
-    .sort((a, b) => {
-      return new Date(b.date).getTime() - new Date(a.date).getTime()
-    })
-    .slice(0, 2)
+  // const posts = allBlogPosts
+  // const latestPosts = posts
+  //   .sort((a, b) => {
+  //     return new Date(b.date).getTime() - new Date(a.date).getTime()
+  //   })
+  //   .slice(0, 2)
 
   const projects = allProjects
 
