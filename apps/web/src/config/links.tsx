@@ -1,23 +1,14 @@
+import { type IconType, SiCalendly, SiGithub, SiLinkedin } from '@icons-pack/react-simple-icons'
 import {
-  type IconType,
-  SiGithub,
-  SiLinkedin,
-  SiCalendly,
-} from '@icons-pack/react-simple-icons'
-import {
-  BarChartIcon,
+  // BarChartIcon,
   FlameIcon,
-  MessageCircleIcon,
-  MonitorIcon,
-  PencilIcon,
-  UserCircleIcon
+  // MessageCircleIcon,
+  MonitorIcon
+  // PencilIcon,
+  // UserCircleIcon
 } from 'lucide-react'
 
-import {
-  SITE_GITHUB_URL,
-  SITE_CALENDLY_URL,
-  SITE_LINKEDIN_URL
-} from '@/lib/constants'
+import { SITE_CALENDLY_URL, SITE_GITHUB_URL, SITE_LINKEDIN_URL } from '@/lib/constants'
 
 type HeaderLinks = Array<{
   icon: React.ReactNode
@@ -49,7 +40,7 @@ export const HEADER_LINKS: HeaderLinks = [
     icon: <MonitorIcon className='size-3.5' />,
     href: '/skills',
     text: 'Skills'
-  },
+  }
   // {
   //   icon: <PencilIcon className='size-3.5' />,
   //   href: '/blog',
@@ -77,7 +68,7 @@ export const FOOTER_LINKS: FooterLinks = [
       {
         href: '/skills',
         text: 'Skills'
-      },
+      }
       // {
       //   href: '/blog',
       //   text: 'Blog'
@@ -127,7 +118,7 @@ export const FOOTER_LINKS: FooterLinks = [
       {
         href: SITE_CALENDLY_URL,
         text: 'Calendly'
-      },
+      }
     ]
   }
 ]
@@ -135,8 +126,8 @@ export const FOOTER_LINKS: FooterLinks = [
 export const SOCIAL_LINKS: SocialLinks = [
   {
     href: SITE_LINKEDIN_URL, // Add your LinkedIn URL here
-    title: 'LinkedIn',       // Title for LinkedIn
-    icon: SiLinkedin,        // LinkedIn icon
+    title: 'LinkedIn', // Title for LinkedIn
+    icon: SiLinkedin // LinkedIn icon
   },
   {
     href: SITE_GITHUB_URL,
@@ -147,6 +138,5 @@ export const SOCIAL_LINKS: SocialLinks = [
     href: SITE_CALENDLY_URL,
     title: 'Calendly',
     icon: SiCalendly
-  },
-
+  }
 ]

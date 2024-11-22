@@ -2,18 +2,14 @@
 
 import { flags } from '@tszhong0411/env'
 import { Link } from '@tszhong0411/ui'
-import { StarIcon } from 'lucide-react'
 
+// import { StarIcon } from 'lucide-react'
 import { FOOTER_LINKS } from '@/config/links'
-import { api } from '@/trpc/react'
 
+// import { api } from '@/trpc/react'
 import NowPlaying from './now-playing'
 
 const Footer = () => {
-  const { status, data } = api.github.getRepoStars.useQuery(undefined, {
-    staleTime: 1000 * 60 * 60
-  })
-
   return (
     <footer className='bg-background/30 relative mx-auto mb-6 flex max-w-5xl flex-col rounded-2xl p-8 shadow-sm saturate-100 backdrop-blur-[10px]'>
       {flags.spotify ? <NowPlaying /> : null}
